@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {useHistory} from "react-router";
 import {LoginUser} from "../../apiCalls/api-calls";
 import Button from "../Button";
@@ -34,7 +34,7 @@ const LoginComponent = () =>{
 
     return(
         <div className='container'>
-            <img src={Image}/>
+            <img src={Image} alt={"Diet Balance"}/>
             <h2>
                 Calorie Manager | Log in
             </h2>

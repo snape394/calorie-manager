@@ -1,10 +1,8 @@
-import React, {useEffect, useState} from "react";
+import React, { useState} from "react";
 import {useHistory} from "react-router";
-import {LoginUser, RegisterUser} from "../../apiCalls/api-calls";
+import { RegisterUser} from "../../apiCalls/api-calls";
 import Button from "../Button";
-import {green} from "@material-ui/core/colors";
 import {Alert} from "@material-ui/lab";
-import {Snackbar} from "@material-ui/core";
 
 const RegisterComponent = () =>{
 
